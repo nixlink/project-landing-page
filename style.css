@@ -105,6 +105,52 @@ body{
     width: 450px;
 }
 
+.info_header{
+    background-color:white;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
 
+  
     
+.information{
+    
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    /*padding: 45px 15%;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    
+}
+
+
+
+.information .card{
+    color:#1F2937;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    width:200px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.information .card img{
+    
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin:0;
+    padding: 0;
 }
